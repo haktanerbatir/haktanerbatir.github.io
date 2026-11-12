@@ -1,304 +1,303 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Haktan Erbatır · Eğitim Teknolojileri</title>
-<meta name="description" content="Haktan Erbatır: Hepsiburada'da eğitim teknolojileri kıdemli uzmanı. Claude Code ile kurduğum eğitim araçları, Storyline 360 simülasyonları ve yapay zekâ destekli eğitim videoları.">
+<title>Haktan Erbatır · Educational Technology</title>
+<meta name="description" content="Haktan Erbatır, Senior Educational Technology Specialist at Hepsiburada. Training tools I built with Claude Code, Storyline 360 simulations and AI-assisted training videos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<a class="skip" href="#projeler">İçeriğe geç</a>
+<a class="skip" href="#projects">Skip to content</a>
 
 <header class="top">
   <div class="wrap top__in">
     <a class="top__name" href="#">Haktan Erbatır</a>
-    <nav class="top__nav" aria-label="Sayfa içi">
-      <a href="#projeler">Projeler</a>
-      <a href="#araclar">Araçlar</a>
-      <a href="#hakkimda">Hakkımda</a>
-      <a href="#iletisim">İletişim</a>
+    <nav class="top__nav" aria-label="On this page">
+      <a href="#projects">Projects</a>
+      <a href="#tools">Tools</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="btn btn--small" href="assets/Haktan-Erbatir-CV-TR.pdf" download>CV indir</a>
+    <a class="btn btn--small" href="assets/Haktan-Erbatir-CV-EN.pdf" download>Download CV</a>
   </div>
 </header>
 
 <main>
-<section class="hero wrap" aria-labelledby="hero-baslik">
+<section class="hero wrap" aria-labelledby="hero-title">
   <div class="hero__text">
-    <p class="hero__role">Eğitim Teknolojileri Kıdemli Uzmanı, Hepsiburada</p>
-    <h1 id="hero-baslik">Eğitim üretiminin tekrar eden kısmını yapay zekâ ajanlarına devrediyorum.</h1>
-    <p class="hero__lead">Müşteri hizmetleri ekipleri için Claude Code ile üç araç kurdum: karar ağaçlarını SCORM paketine çeviren bir akış, ekran kayıtlarını kurgulayan bir video aracı ve eğitim ihtiyacını veriden çıkaran, hâlâ geliştirdiğim bir dashboard. Üretimi ve kontrolü ajanlar, betikler ve otomatik testler yapıyor; tasarım kararları ve onay bende.</p>
+    <p class="hero__role">Senior Educational Technology Specialist, Hepsiburada</p>
+    <h1 id="hero-title">I hand the repetitive parts of training production over to AI agents.</h1>
+    <p class="hero__lead">For customer service teams, I built three tools with Claude Code: a workflow that turns decision trees into SCORM packages, a video tool that edits screen recordings, and a dashboard that finds training needs in data, which I am still developing. Agents, scripts and automated tests do the production and the checks. The design decisions and the approvals are mine.</p>
     <div class="hero__cta">
-      <a class="btn" href="#projeler">Projelere bak</a>
-      <a class="btn btn--ghost" href="assets/Haktan-Erbatir-CV-TR.pdf" download>CV indir (PDF)</a>
+      <a class="btn" href="#projects">See projects</a>
+      <a class="btn btn--ghost" href="assets/Haktan-Erbatir-CV-EN.pdf" download>Download CV (PDF)</a>
     </div>
   </div>
 
   <div class="flow" data-flow>
-    <div class="flow__tabs" role="tablist" aria-label="Araç seç">
-      <button role="tab" id="t-karar" aria-controls="p-karar" aria-selected="true">Karar ağaçları</button>
-      <button role="tab" id="t-video" aria-controls="p-video" aria-selected="false" tabindex="-1">Video aracı</button>
+    <div class="flow__tabs" role="tablist" aria-label="Choose a tool">
+      <button role="tab" id="t-karar" aria-controls="p-karar" aria-selected="true">Decision trees</button>
+      <button role="tab" id="t-video" aria-controls="p-video" aria-selected="false" tabindex="-1">Video tool</button>
       <button role="tab" id="t-dash" aria-controls="p-dash" aria-selected="false" tabindex="-1">Dashboard</button>
     </div>
 
     <ol class="flow__steps" role="tabpanel" id="p-karar" aria-labelledby="t-karar">
-      <li class="is-in"><b>Excel ve PNG diyagram</b><span>Product ekibinden gelen karar ağacı</span></li>
-      <li class="is-agent"><b>Diyagram-okuyucu ajan</b><span>Metni Excel'den karakter karakter alır, ağaca çevirir</span></li>
-      <li class="is-agent"><b>Kalite-kontrol ajanı</b><span>Tek karakter fark varsa yayını durdurur</span></li>
-      <li class="is-me"><b>Benim onayım</b><span>Akış boyunca üç kapı: taslak, görünüş ve paket</span></li>
-      <li class="is-out"><b>SCORM 2004 paketi</b><span>Yaklaşık 300 temsilci görüşmede her gün kullanıyor</span></li>
+      <li class="is-in"><b>Excel and PNG diagram</b><span>Decision tree from the product team</span></li>
+      <li class="is-agent"><b>Diagram reader agent</b><span>Takes the text from Excel character by character and turns it into a tree</span></li>
+      <li class="is-agent"><b>Quality check agent</b><span>Stops publishing if a single character is different</span></li>
+      <li class="is-me"><b>My approval</b><span>Three approval steps in the workflow: draft, appearance and package</span></li>
+      <li class="is-out"><b>SCORM 2004 package</b><span>About 300 customer service agents use it in calls every day</span></li>
     </ol>
     <ol class="flow__steps" role="tabpanel" id="p-video" aria-labelledby="t-video" hidden>
-      <li class="is-in"><b>Ekran kaydı</b><span>Ham eğitim kaydı</span></li>
-      <li class="is-agent"><b>Analiz</b><span>Whisper ile transkript, sessizlik ve tekrar çekimler</span></li>
-      <li class="is-me"><b>Storyboard seçimim</b><span>Her geçiş ve ekran yazısı için 2-4 seçenekten biri</span></li>
-      <li class="is-agent"><b>Grafik üretimi ve kontrol</b><span>Kurumsal kimlikte grafikler; tasarım önizlemesini ben onaylıyorum, teslimden önce otomatik kontrol</span></li>
-      <li class="is-out"><b>Premiere Pro XML</b><span>Düzenlenebilir kurgu; son dokunuş bende</span></li>
+      <li class="is-in"><b>Screen recording</b><span>Raw training recording</span></li>
+      <li class="is-agent"><b>Analysis</b><span>Transcript with Whisper, silences and retakes</span></li>
+      <li class="is-me"><b>My storyboard choices</b><span>One of 2-4 options for each transition and on-screen text</span></li>
+      <li class="is-agent"><b>Graphics and checks</b><span>On-brand graphics; I approve the design preview, and an automatic check runs before delivery</span></li>
+      <li class="is-out"><b>Premiere Pro XML</b><span>Editable timeline; I add the final touches</span></li>
     </ol>
     <ol class="flow__steps" role="tabpanel" id="p-dash" aria-labelledby="t-dash" hidden>
-      <li class="is-in"><b>Kalite ve anket verisi</b><span>Otomatikleştirdiğim Excel üzerinden</span></li>
-      <li class="is-agent"><b>Veri ve analiz ajanları</b><span>Hedefin altında kalan ekipleri önceliklendirir</span></li>
-      <li class="is-agent"><b>Arayüz ajanı</b><span>Dashboard ekranlarını üretir ve günceller</span></li>
-      <li class="is-agent"><b>Etki ve kontrol ajanı</b><span>Eğitim öncesi ve sonrasını karşılaştırır, sayıları denetler</span></li>
-      <li class="is-out"><b>Eğitim ihtiyacı ve etkisi</b><span>Devam eden proje</span></li>
+      <li class="is-in"><b>Quality and survey data</b><span>From an Excel file I automated</span></li>
+      <li class="is-agent"><b>Data and analysis agents</b><span>Prioritize the teams below target</span></li>
+      <li class="is-agent"><b>Interface agent</b><span>Builds and updates the dashboard screens</span></li>
+      <li class="is-agent"><b>Impact and quality check agent</b><span>Compares results before and after training and checks the numbers</span></li>
+      <li class="is-out"><b>Training needs and impact</b><span>In progress</span></li>
     </ol>
 
-    <ul class="flow__key" aria-label="İşaretler">
-      <li class="is-agent">Ajan veya otomasyon</li>
-      <li class="is-me">Benim kararım</li>
-      <li class="is-out">Çıktı</li>
+    <ul class="flow__key" aria-label="Legend">
+      <li class="is-agent">Agent or automation</li>
+      <li class="is-me">My decision</li>
+      <li class="is-out">Output</li>
     </ul>
   </div>
 </section>
 
-<section id="projeler" class="projects" aria-labelledby="projeler-baslik">
+<section id="projects" class="projects" aria-labelledby="projects-title">
   <div class="wrap">
-    <h2 id="projeler-baslik" class="section-title">Projeler</h2>
-    <p class="section-intro">Hepsiburada ve hepsiJET için yaptığım gerçek işler. Gizlilik nedeniyle bazı görsellerde örnek içerik veya kurgusal veri var; her birinin altında belirttim.</p>
+    <h2 id="projects-title" class="section-title">Projects</h2>
+    <p class="section-intro">Real work I did for Hepsiburada and hepsiJET. The screens are in Turkish. For privacy, some images use sample content or made-up data; I say so under each one.</p>
   </div>
 
-  <!-- 1. Karar ağaçları -->
-  <article class="case wrap" id="karar-agaclari">
+  <!-- 1. Decision trees -->
+  <article class="case wrap" id="decision-trees">
     <header class="case__head">
-      <h3>Müşteri Hizmetleri Karar Ağaçları</h3>
-      <ul class="tags"><li>Gerçek iş</li><li>Aktif kullanımda</li><li>Claude Code</li></ul>
-      <p class="case__lead">Product ekibinin Excel'de çizdiği karar ağaçlarını, temsilcilerin görüşme sırasında tıklayarak ilerlediği SCORM 2004 paketlerine çeviren bir üretim akışı kurdum. Bugün yaklaşık 300 müşteri temsilcisi bu ağaçları her gün kullanıyor.</p>
+      <h3>Customer Service Decision Trees</h3>
+      <ul class="tags"><li>Real work</li><li>In daily use</li><li>Claude Code</li></ul>
+      <p class="case__lead">I built a production workflow that turns the product team's Excel decision trees into SCORM 2004 packages. Customer service agents click through these trees step by step during calls, and about 300 of them use them every day.</p>
     </header>
 
     <div class="gallery" data-gallery>
-      <button class="gallery__main" type="button" aria-label="Görseli büyüt">
-        <img src="assets/img/karar-03-sonuc.webp" width="1600" height="852" alt="Kayıp kargo ağacının sonuç ekranı: solda temsilcinin geçtiği adımları gösteren 'Geldiğin yol' paneli, sağda tarih alanı vurgulanmış 'Müşteriye söyle' cümlesi.">
+      <button class="gallery__main" type="button" aria-label="Enlarge image">
+        <img src="assets/img/karar-03-sonuc.webp" width="1600" height="852" alt="Result screen of the lost shipment tree: on the left, a 'Your path' panel with the steps the agent took; on the right, the 'Tell the customer' sentence with the date field highlighted.">
       </button>
       <div class="gallery__thumbs">
-        <button type="button" aria-current="true"><img src="assets/img/karar-03-sonuc.webp" width="1600" height="852" alt="Kayıp kargo ağacının sonuç ekranı: solda temsilcinin geçtiği adımları gösteren 'Geldiğin yol' paneli, sağda tarih alanı vurgulanmış 'Müşteriye söyle' cümlesi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/karar-01-giris.webp" width="1600" height="852" alt="Giriş ekranı: Müşteri Hizmetleri Karar Ağaçları başlığı ve dört adımlı kullanım akışı." loading="lazy"></button>
-        <button type="button"><img src="assets/img/karar-02-liste.webp" width="1600" height="852" alt="Test ürünü altında altı karar ağacı kartı; her kartta müşteri sorusu ve seçenek sayısı." loading="lazy"></button>
+        <button type="button" aria-current="true"><img src="assets/img/karar-03-sonuc.webp" width="1600" height="852" alt="Result screen of the lost shipment tree: on the left, a 'Your path' panel with the steps the agent took; on the right, the 'Tell the customer' sentence with the date field highlighted." loading="lazy"></button>
+        <button type="button"><img src="assets/img/karar-01-giris.webp" width="1600" height="852" alt="Start screen: the title Customer Service Decision Trees and a four-step usage flow." loading="lazy"></button>
+        <button type="button"><img src="assets/img/karar-02-liste.webp" width="1600" height="852" alt="Six decision tree cards under a test product; each card shows a customer question and the number of options." loading="lazy"></button>
       </div>
-      <p class="note">Örnek içerik: Görsellerdeki ağaçlar gizlilik için hazırlanmış test ağaçları. Yapı ve tasarım gerçek dokümanlarla aynı.</p>
+      <p class="note">Sample content: The trees in these images are test trees made for privacy. The structure and design are the same as in the real documents.</p>
     </div>
 
     <dl class="case__body">
-      <div><dt>Problem</dt><dd>Temsilcilerin süreç dokümanlarına görüşme anında ulaşması gerekiyordu. İçerik product ekiplerinden geliyordu; bunu şirketin LMS'i e-Nocta'da (HepsiInstitute) çalışan etkileşimli bir formata hızlıca çevirecek, tekrarlanabilir bir yöntem yoktu.</dd></div>
-      <div><dt>Rolüm</dt><dd>Projeyi baştan sona Claude Code ile kurdum. Ağaçların metni product ekibinden geliyor; ben bu metni etkileşimli dokümana çeviren yapıyı tasarladım.</dd></div>
-      <div class="span"><dt>Süreç</dt><dd>
+      <div><dt>Problem</dt><dd>Customer service agents needed to reach process documents during the call. The content came from the product teams. There was no repeatable way to turn it quickly into an interactive format that works in e-Nocta (HepsiInstitute), the company LMS.</dd></div>
+      <div><dt>My role</dt><dd>I built the project from start to finish with Claude Code. The text of the trees comes from the product team. I designed the structure that turns this text into an interactive document.</dd></div>
+      <div class="span"><dt>Process</dt><dd>
         <ol class="steps">
-          <li>Temsilcinin görüşmedeki düşünme sırasını dört adıma böldüm: ürün, müşterinin sorusu, duruma göre dallanma, müşteriye söylenecek cümle.</li>
-          <li>Arayüzü kurguladım: "Geldiğin yol" paneli, geri dönüş düğmeleri ve tarih gibi değişken alanları vurgulanan "Müşteriye söyle" kutusu.</li>
-          <li>Claude Code'da 3 ajanlı bir yapı kurdum: akışı yöneten ana oturum (orkestratör) ve iki alt ajan, yani diyagram-okuyucu ile dosya değiştiremeyen bağımsız kalite-kontrol ajanı. Yanına 5 projeye özel skill ve her dosya yazımında çalışan bir doğrulama hook'u ekledim.</li>
-          <li>Akışa üç onay kapısı koydum: taslak, görünüş ve paket. Müşteriye okunacak metin Excel'den karakter karakter alınıyor; tek karakter fark varsa yayın duruyor.</li>
+          <li>I split the way a customer service agent thinks during a call into four steps: the product, the customer's question, branching by situation, and the sentence to say to the customer.</li>
+          <li>I designed the interface: a "Your path" panel, back buttons, and a "Tell the customer" box that highlights variable fields such as dates.</li>
+          <li>I set up a 3-agent structure in Claude Code: a main session (orchestrator) that runs the workflow, a diagram reader sub-agent, and an independent quality check sub-agent that cannot change files. I also added 5 custom skills and a validation hook that runs every time a file is written.</li>
+          <li>I put three approval steps in the workflow: draft, appearance and package. The text read to the customer is taken from Excel character by character. If a single character is different, publishing stops.</li>
         </ol>
       </dd></div>
-      <div><dt>Zorluk</dt><dd>Claude Code'a e-Nocta ile uyumlu SCORM paketi ürettirmek yaklaşık bir hafta sürdü. Paket yapısını HepsiInstitute'ta çalışan bir Articulate paketinden örnek alıp sürümü SCORM 2004 2nd Edition'a sabitleyerek çözdüm.</dd></div>
-      <div><dt>Sonuç</dt><dd>Yaklaşık 300 temsilcinin görüşme sırasında her gün kullandığı canlı bir referans aracı. Product ekibinden gelen içerik artık hızla etkileşimli dokümana dönüşüyor.</dd></div>
+      <div><dt>Challenge</dt><dd>It took about a week to get Claude Code to produce a SCORM package that works with e-Nocta. I solved it by copying the package structure of an Articulate package that works on HepsiInstitute and fixing the version to SCORM 2004 2nd Edition.</dd></div>
+      <div><dt>Result</dt><dd>A live reference tool that about 300 customer service agents use every day during calls. Content from the product team now turns into an interactive document quickly.</dd></div>
     </dl>
     <p class="tools">Claude Code, Python, React + Tailwind, SCORM 2004, Git, e-Nocta</p>
   </article>
 
-  <!-- 2. Simülasyon serisi -->
-  <article class="case wrap" id="simulasyon-serisi">
+  <!-- 2. Simulation series -->
+  <article class="case wrap" id="simulation-series">
     <header class="case__head">
-      <h3>Müşteri iletişimi simülasyon serisi</h3>
-      <ul class="tags"><li>Gerçek iş</li><li>Storyline 360</li><li>4 modül</li></ul>
-      <p class="case__lead">Çağrı merkezi çalışanları için Akıllı Sohbet prosedürünü gerçek görüşmelere benzeyen dallanan senaryolarla öğreten dört modüllü bir seri. Akıllı Sohbet, Hepsiburada'da müşteri görüşmelerinin temel kurallarını tanımlayan şirket içi prosedürün adı.</p>
+      <h3>Customer communication simulation series</h3>
+      <ul class="tags"><li>Real work</li><li>Storyline 360</li><li>4 modules</li></ul>
+      <p class="case__lead">A four-module series for call center employees. It teaches the "Akıllı Sohbet" (Smart Conversation) call standard with branching scenarios that are similar to real calls. Akıllı Sohbet is Hepsiburada's internal call standard; it sets the basic rules for customer calls.</p>
     </header>
 
     <div class="gallery" data-gallery>
-      <button class="gallery__main" type="button" aria-label="Görseli büyüt">
-        <img src="assets/img/sim-03-hatali.webp" width="1230" height="694" alt="Akıllı Sohbet Rehberi, adım 1: hatalı cevapta öğrenene adıyla hitap eden ve standardı açıklayan geri bildirim.">
+      <button class="gallery__main" type="button" aria-label="Enlarge image">
+        <img src="assets/img/sim-03-hatali.webp" width="1230" height="694" alt="Akıllı Sohbet Rehberi, step 1: feedback on a wrong answer that uses the learner's name and explains the standard.">
       </button>
       <div class="gallery__thumbs">
-        <button type="button" aria-current="true"><img src="assets/img/sim-03-hatali.webp" width="1230" height="694" alt="Akıllı Sohbet Rehberi, adım 1: hatalı cevapta öğrenene adıyla hitap eden ve standardı açıklayan geri bildirim." loading="lazy"></button>
-        <button type="button"><img src="assets/img/sim-01-giris.webp" width="1231" height="690" alt="Akıllı Sohbet Rehberi giriş ekranı: modül adı, ad girişi alanı ve Eğitime başla düğmesi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/sim-02-secenekler.webp" width="1227" height="692" alt="Adım 3, Çözüm ve öneriler: müşteri cümlesi, üç cevap seçeneği ve beş adımlık ilerleme göstergesi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/sim-04-dogru.webp" width="1232" height="692" alt="Adım 1'de doğru cevap: pekiştiren geri bildirim ve Devam et düğmesi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/kriz-01-diyalog.webp" width="1229" height="692" alt="Kriz müşteri simülasyonu, adım 1: telefon arayüzünde öfkeli müşteriyle diyalog ve iki temsilci cevabı." loading="lazy"></button>
-        <button type="button"><img src="assets/img/kriz-02-aciklama.webp" width="1228" height="690" alt="Kriz simülasyonunda doğru cevap ekranı ve hatalı seçeneğin neden müşteriyi daha çok sinirlendireceğini anlatan açıklama." loading="lazy"></button>
+        <button type="button" aria-current="true"><img src="assets/img/sim-03-hatali.webp" width="1230" height="694" alt="Akıllı Sohbet Rehberi, step 1: feedback on a wrong answer that uses the learner's name and explains the standard." loading="lazy"></button>
+        <button type="button"><img src="assets/img/sim-01-giris.webp" width="1231" height="690" alt="Akıllı Sohbet Rehberi start screen: module name, a name field and the Start training button." loading="lazy"></button>
+        <button type="button"><img src="assets/img/sim-02-secenekler.webp" width="1227" height="692" alt="Step 3, Solutions and suggestions: a customer sentence, three answer options and a five-step progress bar." loading="lazy"></button>
+        <button type="button"><img src="assets/img/sim-04-dogru.webp" width="1232" height="692" alt="Correct answer in step 1: reinforcing feedback and the Continue button." loading="lazy"></button>
+        <button type="button"><img src="assets/img/kriz-01-diyalog.webp" width="1229" height="692" alt="Crisis customer simulation, step 1: a dialogue with an angry customer on a phone screen and two agent answers." loading="lazy"></button>
+        <button type="button"><img src="assets/img/kriz-02-aciklama.webp" width="1228" height="690" alt="Correct answer screen in the crisis simulation, with an explanation of why the wrong option would make the customer angrier." loading="lazy"></button>
       </div>
-      <p class="note">Senaryodaki müşteri kurgusal. Fotoğraflardaki kişiler eğitim ekibinden.</p>
+      <p class="note">The customer in the scenario is fictional. The people in the photos are from the training team.</p>
     </div>
 
     <dl class="case__body">
-      <div><dt>Problem</dt><dd>Akıllı Sohbet standartlarının yaklaşık 300-400 kişilik ekibin tamamına tutarlı biçimde ve pratik yaparak öğretilmesi gerekiyordu. Zorlu, öfkeli müşterilerle görüşmede zorlanan çalışanlar için de ayrı bir pratik alanına ihtiyaç vardı.</dd></div>
-      <div><dt>Rolüm</dt><dd>Senaryoları kendi geliştirdiğim senaryo yazım chatbot'uyla yazdım. Tasarım ve geliştirmenin tamamını Storyline 360'ta yaptım, 1. modülün SCORM 2004 paketini HepsiInstitute'a yükledim.</dd></div>
-      <div class="span"><dt>Süreç</dt><dd>
+      <div><dt>Problem</dt><dd>The whole team of about 300-400 people had to learn the Akıllı Sohbet standards in the same way and through practice. Employees who had trouble with difficult, angry customers also needed a separate place to practice.</dd></div>
+      <div><dt>My role</dt><dd>I wrote the scenarios with a scenario-writing chatbot I developed. I did all of the design and development in Storyline 360 and uploaded the SCORM 2004 package of module 1 to HepsiInstitute.</dd></div>
+      <div class="span"><dt>Process</dt><dd>
         <ol class="steps">
-          <li>Temsilciler önce Akıllı Sohbet eğitim videosunu izliyor, ardından simülasyonlara geçiyor. Kriz modülünden önce de "Empati Kurarak Dinleme Teknikleri" videosu var; onu Premiere Pro ve HeyGen ile hazırladım.</li>
-          <li>Her modül prosedürün beş adımını farklı bir iletişim durumu üzerinden işliyor. 1. modülde her adım için bir doğru ve iki yaygın hatalı cevap kurguladım.</li>
-          <li>Değişkenlerle kişiselleştirme kurdum: girişte alınan ad, geri bildirimlerde ve senaryo boyunca kullanılıyor.</li>
-          <li>Hatalı seçimde nedenini standarda dayanarak açıklayan geri bildirim ve tekrar deneme, doğru seçimde pekiştirme ve sonraki adıma geçiş var.</li>
+          <li>Customer service agents first watch the Akıllı Sohbet training video, then move on to the simulations. Before the crisis module there is also the "Empati Kurarak Dinleme Teknikleri" (Empathetic Listening Techniques) video, which I made with Premiere Pro and HeyGen.</li>
+          <li>Each module covers the five steps of the standard through a different communication situation. In module 1, I wrote one correct answer and two common wrong answers for each step.</li>
+          <li>I added personalization with variables: the name entered at the start is used in the feedback and throughout the scenario.</li>
+          <li>A wrong choice gets feedback that explains the reason based on the standard, plus a retry. A correct choice gets reinforcement and moves on to the next step.</li>
         </ol>
       </dd></div>
-      <div><dt>Modül 1: Akıllı Sohbet Rehberi</dt><dd>Kargo takip ve teslimat itirazı senaryosu. Yaklaşık 300-400 kişi, yani müşteri hizmetleri ekibinin tamamı modülü tamamladı. Sonrasında kalite puanında ve müşteri memnuniyeti anketinde gelişim sağlandı.</dd></div>
-      <div><dt>Modül 2: Kriz müşteri simülasyonu</dt><dd>Zorlu görüşmelerde sorun yaşadığı tespit edilen çalışanlara hedefli olarak atandı. Yaklaşık 100 kişi tamamladı; kalite ve anket ortalamalarında gelişim sağlandı. Sonuçları aşağıdaki eğitim etki dashboard'uyla izledim.</dd></div>
+      <div><dt>Module 1: Akıllı Sohbet Rehberi</dt><dd>A shipment tracking and delivery dispute scenario. About 300-400 people, the whole customer service team, completed the module. After that, quality scores and customer satisfaction survey results improved.</dd></div>
+      <div><dt>Module 2: Crisis customer simulation</dt><dd>Assigned to the employees who were found to have trouble in difficult calls. About 100 people completed it, and quality and survey averages improved. I tracked the results with the training impact dashboard below.</dd></div>
     </dl>
-    <p class="tools">Articulate Storyline 360, SCORM 2004, HepsiInstitute (LMS), senaryo yazım chatbot'u, Premiere Pro, HeyGen</p>
+    <p class="tools">Articulate Storyline 360, SCORM 2004, HepsiInstitute (LMS), scenario-writing chatbot, Premiere Pro, HeyGen</p>
   </article>
 
-  <!-- 3. Video üretim aracı -->
-  <article class="case wrap" id="video-araci">
+  <!-- 3. Video production tool -->
+  <article class="case wrap" id="video-tool">
     <header class="case__head">
-      <h3>Video üretim aracı</h3>
-      <ul class="tags"><li>Gerçek iş</li><li>İlk üretim</li><li>Claude Code</li></ul>
-      <p class="case__lead">Ekran kayıtlarını jump cut'la kurgulayan, grafikleri kurumsal kimlikte üreten ve kurguyu Premiere Pro'ya düzenlenebilir XML olarak teslim eden yerel bir araç. Storyboard ve tasarım kararlarını ben veriyorum, son dokunuşu Premiere'de yapıyorum.</p>
+      <h3>Video production tool</h3>
+      <ul class="tags"><li>Real work</li><li>Pilot</li><li>Claude Code</li></ul>
+      <p class="case__lead">A local tool that edits screen recordings with jump cuts, creates on-brand graphics and delivers the edit to Premiere Pro as editable XML. I make the storyboard and design decisions, and I add the final touches in Premiere.</p>
     </header>
 
     <div class="gallery" data-gallery>
-      <button class="gallery__main" type="button" aria-label="Görseli büyüt">
-        <img src="assets/img/video-01-premiere.webp" width="1600" height="836" alt="Premiere Pro'da açılmış Akıllı Sohbet projesi: araçtan gelen kesmeler ve grafik katmanları zaman çizelgesinde.">
+      <button class="gallery__main" type="button" aria-label="Enlarge image">
+        <img src="assets/img/video-01-premiere.webp" width="1600" height="836" alt="The Akıllı Sohbet project open in Premiere Pro: cuts and graphic layers from the tool on the timeline.">
       </button>
     </div>
 
     <dl class="case__body">
-      <div><dt>Problem</dt><dd>Her eğitim videosunda aynı el işi tekrarlanıyordu: sessizlikleri ve tekrar çekimleri kesmek, geçişleri ve ekran yazılarını tek tek yerleştirmek, kurumsal renk ve font kurallarını korumak. Bu hem işi yavaşlatıyor hem de videolar arasında stil farkı yaratıyordu.</dd></div>
-      <div><dt>Rolüm</dt><dd>Aracı Claude Code ile kurdum: kural dosyası, iş akışı, 2 projeye özel skill ve betikler. Kendi kurgularımı ölçtürüp kurallara çevirdim, kurumsal kimlikte 23 şablonluk bir hareket kütüphanesi oluşturttum.</dd></div>
-      <div class="span"><dt>Süreç</dt><dd>
+      <div><dt>Problem</dt><dd>Every training video needed the same manual work: cutting silences and retakes, placing transitions and on-screen text one by one, and following the brand color and font rules. This slowed the work down and made the style differ from video to video.</dd></div>
+      <div><dt>My role</dt><dd>I built the tool with Claude Code: a rules file, a workflow, 2 custom skills and scripts. I had Claude Code measure my own edits, and I turned the results into rules. I also had it create a motion library of 23 on-brand templates.</dd></div>
+      <div class="span"><dt>Process</dt><dd>
         <ol class="steps">
-          <li>Analiz: Araç kaydı Whisper ile yazıya döküyor, sessizlikleri ve tekrar çekimleri buluyor.</li>
-          <li>Storyboard: Bölümleri, kesilecek yerleri ve her geçiş ile ekran yazısı için 2-4 seçeneği bir sayfada gösteriyor. Seçimi ben yapıyorum.</li>
-          <li>Tasarım: Seçilen şablonlar videonun metnine uyarlanıp ham kaydın üzerinde önizleme olarak onayıma geliyor.</li>
-          <li>Teslim: Şeffaf grafik dosyaları ve Premiere'de düzenlenebilir FCP7 XML. Teslimden önce otomatik bir kontrol çalışıyor.</li>
+          <li>Analysis: The tool transcribes the recording with Whisper and finds silences and retakes.</li>
+          <li>Storyboard: It shows the sections, the parts to cut and 2-4 options for each transition and on-screen text on one page. I make the choices.</li>
+          <li>Design: The selected templates are adapted to the text of the video. They come to me for approval as a preview on top of the raw recording.</li>
+          <li>Delivery: Transparent graphic files and FCP7 XML that I can edit in Premiere. An automatic check runs before delivery.</li>
         </ol>
       </dd></div>
-      <div><dt>Zorluk</dt><dd>Premiere doğrudan üretilen proje dosyasını açmadı; teslimi FCP7 XML'e çevirerek kesmeleri ve katmanları düzenlenebilir tuttum. Yönetici izni olmayan şirket bilgisayarında taşınabilir Node ve kullanıcı kapsamında Python ile çalıştırdım. Tüm işlem yerelde, içerik dışarı gönderilmiyor.</dd></div>
-      <div><dt>Sonuç</dt><dd>Kurgunun tekrarlayan kısmı kurallara bağlı, tekrarlanabilir bir akışa döndü. Araçla ilk olarak yaklaşık 6 dakikalık Akıllı Sohbet eğitim videosunu ürettim; simülasyon serisinden önce izlenen video bu.</dd></div>
+      <div><dt>Challenge</dt><dd>Premiere did not open a project file generated directly, so I switched delivery to FCP7 XML and kept the cuts and layers editable. The company computer has no admin rights, so I ran the tool with portable Node and user-level Python. Everything runs locally, and no content leaves the computer.</dd></div>
+      <div><dt>Result</dt><dd>The repetitive part of editing became a repeatable workflow based on rules. The first video I made with the tool was the Akıllı Sohbet training video, about 6 minutes long. Learners watch this video before the simulation series.</dd></div>
     </dl>
     <p class="tools">Claude Code, Python, FFmpeg, Whisper, Playwright, GSAP, Premiere Pro</p>
   </article>
 
   <!-- 4. Dashboard -->
-  <article class="case wrap" id="etki-dashboard">
+  <article class="case wrap" id="impact-dashboard">
     <header class="case__head">
-      <h3>Eğitim etki dashboard'u</h3>
-      <ul class="tags"><li class="tag--live">Devam eden proje</li><li>Claude Code</li></ul>
-      <p class="case__lead">Kalite ve müşteri memnuniyeti anketi verisinden eğitim ihtiyacını çıkaran ve eğitimden sonraki değişimi aynı yerde gösteren bir dashboard. Eğitim üretimine artık talep beklemeden, veriye bakarak başlıyorum.</p>
+      <h3>Training impact dashboard</h3>
+      <ul class="tags"><li class="tag--live">In progress</li><li>Claude Code</li></ul>
+      <p class="case__lead">A dashboard that finds training needs in quality and customer satisfaction survey data and shows the change after training in the same place. I now start training production by looking at the data, without waiting for a request.</p>
     </header>
 
     <div class="gallery" data-gallery>
-      <button class="gallery__main" type="button" aria-label="Görseli büyüt">
-        <img src="assets/img/dash-01-genel.webp" width="1600" height="1000" alt="Dashboard ana ekranı: ekip bazında kalite ve anket ortalamaları, hedefe göre durum kartları ve dönem filtresi.">
+      <button class="gallery__main" type="button" aria-label="Enlarge image">
+        <img src="assets/img/dash-01-genel.webp" width="1600" height="1000" alt="Dashboard main screen: quality and survey averages by team, status cards against the target and a period filter.">
       </button>
       <div class="gallery__thumbs">
-        <button type="button" aria-current="true"><img src="assets/img/dash-01-genel.webp" width="1600" height="1000" alt="Dashboard ana ekranı: ekip bazında kalite ve anket ortalamaları, hedefe göre durum kartları ve dönem filtresi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/dash-02-ihtiyac.webp" width="1600" height="1000" alt="İhtiyaç analizi ekranı: hedefin altında kalan ekipler ve önerilen eğitim eşleştirmesi." loading="lazy"></button>
-        <button type="button"><img src="assets/img/dash-03-etki.webp" width="1600" height="1000" alt="Örnek bir eğitimin öncesi ve sonrası kalite ve anket trendi, eğitim tarihi işaretli." loading="lazy"></button>
+        <button type="button" aria-current="true"><img src="assets/img/dash-01-genel.webp" width="1600" height="1000" alt="Dashboard main screen: quality and survey averages by team, status cards against the target and a period filter." loading="lazy"></button>
+        <button type="button"><img src="assets/img/dash-02-ihtiyac.webp" width="1600" height="1000" alt="Needs analysis screen: teams below target and suggested training matches." loading="lazy"></button>
+        <button type="button"><img src="assets/img/dash-03-etki.webp" width="1600" height="1000" alt="Quality and survey trend before and after a sample training, with the training date marked." loading="lazy"></button>
       </div>
-      <p class="note">Kurgusal örnek veri: Ekip adları, eğitim eşleştirmeleri ve değerler gerçek değil.</p>
+      <p class="note">Sample data: Team names, training matches and values are not real.</p>
     </div>
 
     <dl class="case__body">
-      <div><dt>Problem</dt><dd>Dijital eğitim üretimi genelde ekiplerden gelen taleple başlıyordu. İhtiyaç ancak biri istediğinde görünüyor, eğitimin işe yarayıp yaramadığı da dağınık verilerden takip ediliyordu.</dd></div>
-      <div><dt>Rolüm</dt><dd>Kalite ekiplerinden gelen değerleri dashboard'a sürekli aktaran Excel otomasyonunu kurdum. Dashboard'u Claude Code'da dört ajanlı bir yapıyla geliştiriyorum: veri, analiz, arayüz, etki ve kontrol.</dd></div>
-      <div class="span"><dt>Süreç</dt><dd>
+      <div><dt>Problem</dt><dd>Digital training production usually started with a request from a team. A need only became visible when someone asked for it, and whether a training worked was tracked from scattered data.</dd></div>
+      <div><dt>My role</dt><dd>I built the Excel automation that regularly moves values from the quality teams into the dashboard. I am developing the dashboard in Claude Code with a four-agent setup: data, analysis, interface, and impact and quality check.</dd></div>
+      <div class="span"><dt>Process</dt><dd>
         <ol class="steps">
-          <li>Kalite ve anket değerlerini düzenli toplayan bir Excel yapısı kurup otomatikleştirdim.</li>
-          <li>Ajanlar bu veriyi okuyup hedefin altında kalan ekip ve kriterleri önceliklendiriyor, mevcut eğitimlerle eşleştiriyor.</li>
-          <li>Öne çıkan ihtiyaca göre içerik üretiyorum; simülasyon serisi bu akışla, veride görünen ihtiyaçtan başladı.</li>
-          <li>Eğitim sonrası değişimi aynı ekrandan izliyorum.</li>
+          <li>I set up an Excel structure that collects quality and survey values regularly, and I automated it.</li>
+          <li>The agents read this data, prioritize the teams and criteria below target, and match them with existing trainings.</li>
+          <li>I create content for the top need. The simulation series started this way, from a need that showed up in the data.</li>
+          <li>I track the change after training on the same screen.</li>
         </ol>
       </dd></div>
-      <div><dt>Sonuç</dt><dd>Eğitim üretimi artık veriden başlıyor. Simülasyon serisinin sonuçları bu dashboard ile takip edildi. Proje hâlâ geliştiriliyor.</dd></div>
+      <div><dt>Result</dt><dd>Training production now starts from data. The results of the simulation series were tracked with this dashboard. The project is still in development.</dd></div>
     </dl>
-    <p class="tools">Claude Code, Excel otomasyonu, web arayüzü</p>
+    <p class="tools">Claude Code, Excel automation, web interface</p>
   </article>
 
   <!-- 5. hepsiJET -->
   <article class="case wrap" id="hepsijet">
     <header class="case__head">
-      <h3>hepsiJET oryantasyon videosu</h3>
-      <ul class="tags"><li>Gerçek iş</li><li>Yapay zekâ karakter</li></ul>
-      <p class="case__lead">hepsiJET'e yeni başlayanlar için anlatıcısı yapay zekâ ile üretilmiş bir karakter olan oryantasyon videosu. Klasik çekim yerine bu yolu seçtim; video yaklaşık 200 kişi tarafından izlendi.</p>
+      <h3>hepsiJET onboarding video</h3>
+      <ul class="tags"><li>Real work</li><li>AI avatar</li></ul>
+      <p class="case__lead">An onboarding video for new hepsiJET employees, with an AI avatar as the narrator. I chose this instead of a classic video shoot. About 200 people watched the video.</p>
     </header>
 
     <div class="gallery" data-gallery>
-      <button class="gallery__main" type="button" aria-label="Görseli büyüt">
-        <img src="assets/img/jet-01-karakter.webp" width="1600" height="900" alt="Yapay zekâ ile üretilmiş anlatıcı karakter, yanında MP Gönderiler alt bandı ve açıklama metni.">
+      <button class="gallery__main" type="button" aria-label="Enlarge image">
+        <img src="assets/img/jet-01-karakter.webp" width="1600" height="900" alt="The AI-generated narrator avatar, next to an 'MP Shipments' lower third and description text.">
       </button>
       <div class="gallery__thumbs">
-        <button type="button" aria-current="true"><img src="assets/img/jet-01-karakter.webp" width="1600" height="900" alt="Yapay zekâ ile üretilmiş anlatıcı karakter, yanında MP Gönderiler alt bandı ve açıklama metni." loading="lazy"></button>
-        <button type="button"><img src="assets/img/jet-02-depo.webp" width="1600" height="900" alt="Üretken görsel araçlarıyla hazırlanmış depo sahnesi: hepsiJET tırına koliler yükleniyor." loading="lazy"></button>
-        <button type="button"><img src="assets/img/jet-03-markalar.webp" width="1600" height="900" alt="Anlatıcı karakter ve iş ortağı marka kartları; marka logoları bulanıklaştırılmış." loading="lazy"></button>
+        <button type="button" aria-current="true"><img src="assets/img/jet-01-karakter.webp" width="1600" height="900" alt="The AI-generated narrator avatar, next to an 'MP Shipments' lower third and description text." loading="lazy"></button>
+        <button type="button"><img src="assets/img/jet-02-depo.webp" width="1600" height="900" alt="Warehouse scene made with generative image tools: boxes being loaded onto a hepsiJET truck." loading="lazy"></button>
+        <button type="button"><img src="assets/img/jet-03-markalar.webp" width="1600" height="900" alt="The narrator avatar and partner brand cards; the brand logos are blurred." loading="lazy"></button>
       </div>
-      <p class="note">İş ortağı logoları ve araç plakaları bulanıklaştırıldı.</p>
+      <p class="note">Partner logos and vehicle plates are blurred.</p>
     </div>
 
     <dl class="case__body">
-      <div><dt>Problem</dt><dd>Yeni çalışanlara gönderi türlerini, süreçleri ve iş ortaklarını anlatan bir oryantasyon içeriği gerekiyordu. Bunu klasik çekimle üretmek hem zaman hem bütçe açısından pahalıydı.</dd></div>
-      <div><dt>Rolüm</dt><dd>Senaryoyu kendi senaryo yazım chatbot'umla yazdım. Karakter videolarını HeyGen'de, seslerini ElevenLabs'te, sahne görsellerini Nano Banana ve Midjourney ile ürettim. Kurgunun tamamını Premiere Pro'da yaptım.</dd></div>
-      <div><dt>Zorluk</dt><dd>Yapay zekâ karakterli videolarda en riskli noktalardan biri dudak senkronu. Araç seçimini buna göre yaptım; HeyGen'in güncel sürümüyle senkron sorunu yaşamadım.</dd></div>
-      <div><dt>Sonuç</dt><dd>Yaklaşık 200 kişi izledi. Senaryoda chatbot, karakterde HeyGen kullandığım için klasik çekime göre efor ve maliyetten tasarruf ettim.</dd></div>
+      <div><dt>Problem</dt><dd>New employees needed onboarding content about shipment types, processes and partners. Making it with a classic video shoot would have cost a lot of time and budget.</dd></div>
+      <div><dt>My role</dt><dd>I wrote the script with my own scenario-writing chatbot. I made the avatar videos in HeyGen, the voices in ElevenLabs and the scene images with Nano Banana and Midjourney. I did all of the editing in Premiere Pro.</dd></div>
+      <div><dt>Challenge</dt><dd>Lip sync is one of the riskiest points in AI avatar videos. I chose the tools with this in mind and had no sync problems with the current version of HeyGen.</dd></div>
+      <div><dt>Result</dt><dd>About 200 people watched it. I used a chatbot for the script and HeyGen for the avatar, so I saved effort and cost compared to a classic shoot.</dd></div>
     </dl>
-    <p class="tools">Senaryo yazım chatbot'u, HeyGen, ElevenLabs, Nano Banana, Midjourney, Premiere Pro</p>
+    <p class="tools">Scenario-writing chatbot, HeyGen, ElevenLabs, Nano Banana, Midjourney, Premiere Pro</p>
   </article>
 </section>
 
-<section id="araclar" class="skills wrap" aria-labelledby="araclar-baslik">
-  <h2 id="araclar-baslik" class="section-title">Araçlar</h2>
+<section id="tools" class="skills wrap" aria-labelledby="tools-title">
+  <h2 id="tools-title" class="section-title">Tools</h2>
   <div class="skills__grid">
-    <div><h3>Öğretim tasarımı ve e-öğrenme</h3><p>Articulate Storyline 360, senaryo tabanlı öğrenme, dallanan simülasyon, mikro öğrenme, eğitim ihtiyaç analizi, SCORM 2004</p></div>
-    <div><h3>Yapay zekâ ile eğitim üretimi</h3><p>Claude Code (çok ajanlı yapılar, skill'ler, hook'lar), Claude, ChatGPT, Gemini, HeyGen, ElevenLabs, Midjourney, Whisper</p></div>
-    <div><h3>Video ve tasarım</h3><p>Premiere Pro, After Effects, Camtasia, Canva, Figma, Miro</p></div>
-    <div><h3>Otomasyon ve veri</h3><p>Python, FFmpeg, Playwright, Git, Excel VBA, Power BI, ileri Excel, LMS yönetimi (e-Nocta)</p></div>
+    <div><h3>Instructional design and eLearning</h3><p>Articulate Storyline 360, scenario-based learning, branching simulations, microlearning, training needs analysis, SCORM 2004</p></div>
+    <div><h3>AI-assisted training production</h3><p>Claude Code (multi-agent setups, skills, hooks), Claude, ChatGPT, Gemini, HeyGen, ElevenLabs, Midjourney, Whisper</p></div>
+    <div><h3>Video and design</h3><p>Premiere Pro, After Effects, Camtasia, Canva, Figma, Miro</p></div>
+    <div><h3>Automation and data</h3><p>Python, FFmpeg, Playwright, Git, Excel VBA, Power BI, advanced Excel, LMS administration (e-Nocta)</p></div>
   </div>
 </section>
 
-<section id="hakkimda" class="about wrap" aria-labelledby="hakkimda-baslik">
-  <h2 id="hakkimda-baslik" class="section-title">Hakkımda</h2>
+<section id="about" class="about wrap" aria-labelledby="about-title">
+  <h2 id="about-title" class="section-title">About</h2>
   <div class="about__grid">
     <div class="about__text">
-      <p>2021'den beri Hepsiburada'dayım. Müşteri hizmetlerinde VIP ve kriz iletişimiyle başladım, kalite ve eğitim ekibine geçtim. 2025'ten beri eğitim teknolojileri kıdemli uzmanı olarak müşteri hizmetleri ekipleri için eğitim tasarlıyor ve üretiyorum.</p>
-      <p>Kocaeli Üniversitesi'nde radyo, televizyon ve sinema okudum; ATV'de kurgu stajı yaptım. Sakarya Üniversitesi'nde halkla ilişkiler ve reklamcılık yüksek lisansını tamamladım. 2016'dan beri TEGV'de gönüllüyüm.</p>
+      <p>I have worked at Hepsiburada since 2021. I started in customer service with VIP and crisis communication, then moved to the quality and training team. Since 2025, as a Senior Educational Technology Specialist, I design and produce training for customer service teams.</p>
+      <p>I studied Radio, Television and Cinema at Kocaeli University and did an editing internship at ATV. I have a master's degree in Public Relations and Advertising from Sakarya University. I have been a volunteer at TEGV since 2016.</p>
     </div>
-    <ol class="timeline" aria-label="Hepsiburada'daki rollerim">
-      <li><span>2025 – bugün</span>Eğitim Teknolojileri Kıdemli Uzmanı</li>
-      <li><span>2024 – 2025</span>Kalite ve Eğitim Uzmanı</li>
-      <li><span>2022 – 2024</span>Kalite ve Eğitim Uzman Yardımcısı</li>
-      <li><span>2021 – 2022</span>HepsiFly İletişim Sorumlusu</li>
-      <li><span>2021</span>VIP ve Kriz İletişim Sorumlusu</li>
+    <ol class="timeline" aria-label="My roles at Hepsiburada">
+      <li><span>2025 – present</span>Senior Educational Technology Specialist</li>
+      <li><span>2024 – 2025</span>Quality and Training Specialist</li>
+      <li><span>2022 – 2024</span>Assistant Quality and Training Specialist</li>
+      <li><span>2021 – 2022</span>HepsiFly Communication Representative</li>
+      <li><span>2021</span>VIP and Crisis Communication Representative</li>
     </ol>
   </div>
 </section>
 
-<section id="iletisim" class="contact" aria-labelledby="iletisim-baslik">
+<section id="contact" class="contact" aria-labelledby="contact-title">
   <div class="wrap">
-    <h2 id="iletisim-baslik">Birlikte çalışmak için yazabilirsiniz.</h2>
+    <h2 id="contact-title">Write to me if you would like to work together.</h2>
     <ul class="contact__list">
       <li><a href="mailto:haktanerbatir93@gmail.com">haktanerbatir93@gmail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/haktan-erbat%C4%B1r-665051146/" rel="noopener">LinkedIn profilim</a></li>
-      <li><a href="assets/Haktan-Erbatir-CV-TR.pdf" download>CV (Türkçe, PDF)</a></li>
-      <li><a href="assets/Haktan-Erbatir-CV-EN.pdf" download>CV (English, PDF)</a></li>
-      <li><a href="assets/Haktan-Erbatir-Portfoy.pdf" download>Portföy (PDF)</a></li>
+      <li><a href="https://www.linkedin.com/in/haktan-erbat%C4%B1r-665051146/" rel="noopener">My LinkedIn profile</a></li>
+      <li><a href="assets/Haktan-Erbatir-CV-EN.pdf" download>CV (PDF)</a></li>
+      <li><a href="assets/Haktan-Erbatir-Portfolio.pdf" download>Portfolio (PDF)</a></li>
     </ul>
-    <p class="contact__foot">İstanbul · © 2026 Haktan Erbatır</p>
+    <p class="contact__foot">Istanbul · © 2026 Haktan Erbatır</p>
   </div>
 </section>
 </main>
 
-<dialog class="lightbox" aria-label="Büyütülmüş görsel">
-  <form method="dialog"><button class="lightbox__close" aria-label="Kapat">Kapat</button></form>
+<dialog class="lightbox" aria-label="Enlarged image">
+  <form method="dialog"><button class="lightbox__close" aria-label="Close">Close</button></form>
   <img alt="">
   <p class="lightbox__cap"></p>
 </dialog>

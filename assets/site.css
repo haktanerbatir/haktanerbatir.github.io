@@ -169,7 +169,7 @@ h1, h2, h3, dt, .btn, .top, .tags, .tools, .note, .timeline span, .hero__role, f
 .steps li:not(:last-child)::after { content: ""; position: absolute; top: 14px; left: 36px; right: -20px; height: 2px; background: var(--pine-soft); }
 
 .tools { margin: 32px 0 0; color: var(--muted); font-size: .92rem; }
-.tools::before { content: "Kullandıklarım: "; color: var(--ink); font-weight: 500; }
+.tools::before { content: "Tools: "; color: var(--ink); font-weight: 500; }
 
 /* Araçlar */
 .skills { padding-block: clamp(56px, 8vw, 96px); border-top: 1px solid var(--line); }
